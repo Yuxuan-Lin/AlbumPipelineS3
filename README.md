@@ -1,3 +1,5 @@
+# Added something
+
 # Prerequisites
 For the JavaScript SDK to work your APIs need to support CORS. The Amazon API Gateway developer guide explains how to [setup CORS for an endpoint]().
 The generated SDK depends on third-party libraries. Include all of the scripts in your webpage
