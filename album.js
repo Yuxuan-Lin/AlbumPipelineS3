@@ -122,10 +122,14 @@ function handleFileUpload(apigClient, params, body) {
 }
 
 function handleSearchWithText(apigClient, text) {
+
     console.log(text);
     if (!imgName) {
         return;
     }
+
+    document.getElementById("images-list").innerHTML = "";
+
     let params = {
         q: text
     };
